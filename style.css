@@ -24,7 +24,7 @@ body{
           p{
             text-align: center;
             font-size: larger;
-            color: rgb(7, 128, 29);
+            color: blackS;
           }
           h1:hover{
             background-color: yellow;
