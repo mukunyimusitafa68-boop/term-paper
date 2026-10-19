@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My contacts</title>
+</head>
+<body>
+     <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About me</a>
+    <a href="contacts.html">Contacts</a>
+    <a href="gallery.html">Gallery</a>
+    </nav>
+<section>
+    <h1>Get in touch </h1>
+    <p>Thank you for visitng my personsl website. you can contact me using 
+        the details below.
+    </p>
+    <div class="contat-information">
+        <p><strong>Name:</strong>Mukunyi Musitafa</p>
+        <p><strong>Email:</strong>mukunyimusitafa68@gmail.com</p>
+    <p><srong>Phone:</srong>0743673885</p>
+     <p><srong>Location:</srong>:</srong>Banda Kireka</p>
+    </div>
+
+</body>
+</html>
