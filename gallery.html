@@ -3,17 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My gallery</title>
+    <title>My Gallery</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav>
+     <nav>
     <a href="index.html">Home</a>
     <a href="about.html">About me</a>
     <a href="contacts.html">Contacts</a>
     <a href="gallery.html">Gallery</a>
     </nav>
-    <h1>Welcome to my gallery</h1>
-    <p>this gallery shows my picture, motivational video and memorable moments</p>
-    <img crc="gallery.html" alt="my picture" width="300">
+<h1>My Gallery</h1>
+
+<div class="gallery">
+
+    <!-- First image -->
+    <div class="gallery-item">
+        <img src="surya.jpg" alt="Gallery photo 1">
+    </div>
+
+    <!-- Second image -->
+    <div class="gallery-item">
+        <img src="MUST.jpg" alt="Gallery photo 2">
+    </div>
+
+    <!-- Third image -->
+    <div class="gallery-item">
+        <img src="@0100.jpg" alt="Gallery photo 3">
+    </div>
+
+    <!-- Video -->
+    <div class="gallery-item">
+        <video controls preload="metadata">
+            <source src="c:\Users\MUSITAFA\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalState\sessions\24D7AB79B2753918F2670285CC0F4BE5C86AD2C7\transfers\2026-42\WhatsApp Video 2026-10-19 at 4.53.00 PM.mp4" type="video/mp4">
+            Your browser does not support video playback.
+        </video>
+    </div>
+
+</div>
 </body>
 </html>

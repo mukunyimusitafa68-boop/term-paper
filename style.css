@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(212, 204, 204);
+}
+.btn1{
+          float: left;
+        }
+
+          .btn{
+            float: right;
+          }
+          h1{
+            text-align: center;
+            color: black;
+
+          }
+          h2{
+            text-align: center;
+            color: black;
+          }
+          h3{
+            text-align: center;
+            color: black;
+          }
+          p{
+            text-align: center;
+            font-size: larger;
+            color: black;
+          }
+          h1:hover{
+            background-color: yellow;
+            border: 2Px solid rgb(6, 49, 129);
+            color: black;
+          }
+          footer{
+            padding: 7%;
+            font-size: larger;
+          }
+          
+/* Reduce image size in the gallery */
+.gallery-item img {
+    width: 50%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Reduce video size in the gallery */
+.gallery-item video {
+    width: 50%;
+    height: 500px;
+}
