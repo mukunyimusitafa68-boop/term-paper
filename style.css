@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(212, 204, 204);
+    background-color: white;
 }
 .btn1{
           float: left;
@@ -10,29 +10,29 @@ body{
           }
           h1{
             text-align: center;
-            color: black;
+            color: blue;
 
           }
           h2{
             text-align: center;
-            color: black;
+            color: greenyellow;
           }
           h3{
             text-align: center;
-            color: black;
+               color:black;
           }
           p{
             text-align: center;
             font-size: larger;
-            color: black;
+            color: rgb(7, 128, 29);
           }
           h1:hover{
             background-color: yellow;
-            border: 2Px solid rgb(6, 49, 129);
-            color: black;
+            border: 2Px solid rgb(12, 110, 61);
+            color: rgb(127, 14, 14);
           }
           footer{
-            padding: 7%;
+            padding: 15%;
             font-size: larger;
           }
           
